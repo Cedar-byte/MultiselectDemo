@@ -1,5 +1,16 @@
 # ImageSelector
-Image selector library for Android. Support single choice、multi-choice、cropping image and preview image.
+此demo包含了图片的多选、单选、裁剪、预览，我是很久前在某个论坛上下载的，不过已经忘了是哪个论坛的，所有在这里声明下，总之很感谢开源的那位大牛，这个demo非常值得学习。
+调用也很简单，如果单独抽出来执行时改改下面的这个代码就行了<br>
+```Java
+/**
+ * maxSelectNum --> 可选择图片的数量
+ * mode         --> 单选 or 多选
+ * isShow       --> 是否显示拍照选项
+ * isPreview    --> 是否打开预览选项
+ * isCrop       --> 是否打开剪切选项
+ */
+ImageSelectorActivity.start(MainActivity.this, maxSelectNum, mode, isShow,isPreview,isCrop);
+```
 
 ![](https://raw.githubusercontent.com/ioneday/ImageSelector/master/screenshot/Screenshot1.jpg)
 ![](https://raw.githubusercontent.com/ioneday/ImageSelector/master/screenshot/Screenshot2.jpg)
